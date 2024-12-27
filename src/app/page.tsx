@@ -1,4 +1,3 @@
-import Image from "next/image";
 
 import Navbar from "../app/components/navbar";
 import Banner from "../app/components/banner";
