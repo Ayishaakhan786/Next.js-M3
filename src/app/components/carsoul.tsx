@@ -1,5 +1,7 @@
-export default function navbar () {
+export default function Hero () {
     return (
-        <div>carsoul section</div>
+        <div>
+            
+        </div>
     );
 }
