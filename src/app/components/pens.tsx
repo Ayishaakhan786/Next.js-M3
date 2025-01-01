@@ -9,7 +9,7 @@ const products = [
         id: 1,
         title: "Dollar",
         category: "local",
-        price: "$50.00",
+        price: "$550.00",
         image: P1,
         bgColor: "bg-gray-200",
     },
@@ -17,21 +17,21 @@ const products = [
         id: 2,
         title: "Fancy",
         category: "pelikan",
-        price: "$150.00",
+        price: "$200.00",
         image: P2,
         bgColor: "bg-gray-200",
     },
     {
         id: 3,
         title: "Extra Fancy",
-        category: "pelikan2",
-        price: "$200.00",
+        category: "Piano",
+        price: "$450.00",
         image: P3,
         bgColor: "bg-gray-200",
     },
 ];
 
-export default function Product() {
+export default function Pens() {
     return (
         <div className="p-6 flex flex-wrap gap-6 justify-center items-center">
             {products.map((product) => (

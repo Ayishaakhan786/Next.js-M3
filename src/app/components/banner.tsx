@@ -4,7 +4,7 @@ import BannerImg from "./img/banner.jpg";
 
 export default function Banner () {
     return (
-        <div className="relative overflow-hidden bg-white font-sans px-6 py-12 mb-7 text-black">
+        <div className="relative overflow-hidden bg-slate-300 font-sans px-6 py-2 mb-2 text-black">
         <div className="absolute insert-0 opacity-90">
            <Image src={BannerImg} alt="pen1 banner" className="w-full h-full object-cover"/>
         </div>

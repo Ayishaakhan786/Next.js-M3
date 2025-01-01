@@ -6,11 +6,11 @@ import { IoCartOutline } from "react-icons/io5";
 
 import Logo from './img/LOGO.jpg';
 
-export default function navbar () {
+export default function Navbar () {
     return (
         <div>
             <div className="grid xl:grid-cols-1 grid-cols-1">
-                <div className="p-5">
+                <div className="p-3">
                 <div className="py-1 px-1 rounded-xl border border-black w-full">
                 <div className="flex justify-between items-center">
                 <div className="flex justify-center items-center gap-2">
