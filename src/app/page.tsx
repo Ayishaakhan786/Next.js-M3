@@ -3,12 +3,11 @@ import Navbar from "../app/components/navbar";
 import Banner from "../app/components/banner";
 import Carsoul from "../app/components/carsoul";
 import Product from "../app/components/product";
-import Cart from "../app/components/cart";
-import Offer from "../app/components/offer";
 import Progressor from "../app/components/progessor";
-import Testimonials from "../app/components/testimonial";
 import Pens from "../app/components/pens";
 import Items from "../app/components/items";
+import Footer from "../app/components/footer";
+import Home from "./components/productItems";
 
 export default function App() {
   return (
@@ -20,9 +19,8 @@ export default function App() {
       <Banner/>
       <Pens/>
       <Items/>
-      <Cart/>
-      <Offer/>
-      <Testimonials/>
+      <Home/>
+      <Footer/>
     </div>
   );
 }
