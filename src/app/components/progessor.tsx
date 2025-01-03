@@ -1,5 +1,3 @@
-
-
 export default function Progressor () {
     return (
         <div className="flex items-start max:w-screen-lg w-full mx-auto mt-10 bg-slate-300">
