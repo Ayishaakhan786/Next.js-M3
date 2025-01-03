@@ -11,7 +11,6 @@ export default function Progressor () {
                     <p className="text-xs text-gray-700">Unleash your thoughts with the timeless elegance of a fountain pen</p>
                 </div>
             </div>
-
             <div className="w-full p-4">
                 <div className="w-8 h-8 shrink-0 mx-[-1px] bg-teal-400 p-1.5 flex items-center justify-center rounded-full">
                     <span className="text-base text-black font-bold ">2</span>
@@ -22,7 +21,6 @@ export default function Progressor () {
                     <p className="text-xs text-gray-700">Your pen, your style – create a masterpiece that's uniquely yours</p>
                 </div>
             </div>
-
             <div className="w-full p-4">
                 <div className="w-8 h-8 shrink-0 mx-[-1px] bg-teal-400 p-1.5 flex items-center justify-center rounded-full">
                     <span className="text-base text-black font-bold ">3</span>
